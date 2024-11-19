@@ -1,0 +1,112 @@
+/* body css code */
+
+body {
+  margin: 0;
+}
+/* header css code */
+.header {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+#logo {
+  position: absolute;
+  top: 16px;
+  left: 103px;
+  font-size: 35px;
+  color: #fff;
+}
+
+.r-sec {
+  position: absolute;
+  left: 261px;
+  top: 26px;
+}
+
+.h-selection {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.h-selection-1{
+  color: #fff;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.menu-h{
+  position: absolute;
+  right: 25px;
+  top: 26px;
+}
+/* body css code */
+.main-body-container {
+  margin-top: -100px;
+}
+/* image section starting here */
+.section-1{
+  position: relative;
+  margin-bottom: -4px;
+}
+
+img{
+  width: 100%;
+}
+
+.pic-content{
+  width: 500px;
+  position: absolute;
+  z-index: 3;
+  left: 115px;
+  bottom: 150px;
+  line-height: 35px;
+  color: #fff;
+}
+
+.h-main{
+  font-size: 42px
+}
+
+.h-up{
+  font-size: 20px;
+}
+
+.btn{
+  border-width: 2px;
+  border-color: #fff;
+  border-style: solid;
+  background: transparent;
+  padding: 15px 50px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+
+.h-selection:hover{
+  text-decoration: underline;
+  transition: text-decoration .8s;
+  cursor: pointer;
+  animation: text-decoration .8s;
+}
+
+.footer{
+  position: relative;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer span{
+  font-size: 12px;
+  margin-right: 20px;
+}
